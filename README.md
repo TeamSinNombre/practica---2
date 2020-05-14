@@ -139,15 +139,18 @@
     i. Escribe una función, hanoi(n), que reciba como parámetro n y que
     imprima en pantalla todos los pasos a seguir para mover los discos
     del poste A al poste C.
+    ´´´´
     Nota: Usando la estrategia divide y vencerás, crear una función mueve(n, “A”, “B”,
     “C”), donde ABC representan las distintas torres.
+    ´´´
     Una leyenda cuenta que en un monasterio en la ciudad de Hanoi hay 3 postes
     colocados de esa manera y unos monjes han estado trabajando para mover 48
     discos del poste A al poste C, una vez que terminen de mover los 48 discos el
     mundo se acabará. Te parecen pocos 48 discos?, corre la solución a este
     problema con n=48 y verás que parece nunca terminar(ahora imagina si se
     tardaran 2 minutos en mover cada disco ¿Cuanto le tiempo durarían?).
-    17.ONE_WAY: Hay 3 formas de edición que pueden ser aplicadas en un string:
+    
+17. ONE_WAY: Hay 3 formas de edición que pueden ser aplicadas en un string:
     insertar un carácter, remover un carácter, o reemplazar un carácter. Dados dos
     strings, escribe una función, oneWay(st, ts), que verifique si hay una edición
     aplicada entre un string y el otro. Ejemplo:
@@ -156,14 +159,14 @@
     pale, bale → true
     pale, bake → false
 
-17. URLIFY: Escribe una función que remplace todos los espacios en blanco por ‘%20’,
+18. URLIFY: Escribe una función que remplace todos los espacios en blanco por ‘%20’,
     debes suponer que el string tiene suficiente espacio para agregar los nuevos
     caracteres, el tamaño del string debe mantenerse igual que el string original.
     Ejemplo:
     input : st1 → “Mr John Smith “ y tam → 13
     output: "Mr%20John%20Smith" y tam → 13
 
-18. Escribe una función que dados dos números enteros n y c, cadenas(n,c), imprima
+19. Escribe una función que dados dos números enteros n y c, cadenas(n,c), imprima
     todas las cadenas de caracteres de longitud n que utilicen solamente las primeras c
     letras del alfabeto(todas minúsculas), puedes asumir que n < 20. Ejemplo:
     cadenas(1, 3) = {a, b, c}
@@ -171,7 +174,7 @@
     cadenas(3, 3) = {aaa, aab, aac, aba, abb, abc, aca, acb, acc, baa, bab, bac,
     bba, bbb, bbc, bca, bcb, bcc, caa, cab, cac, cba, cbb, cbc, cca, ccb, ccc, }
 
-19. Algoritmos de Ordenamiento (Problema de investigación 20 pts): Investigar e
+20. Algoritmos de Ordenamiento (Problema de investigación 20 pts): Investigar e
     implementar los siguientes algoritmos de ordenamiento usando su lenguaje de
     preferencia (es su caso Javascript) (Escribir su opinión personal sobre la estrategia
     utilizada en cada algoritmo):
