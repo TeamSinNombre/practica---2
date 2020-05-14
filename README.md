@@ -135,14 +135,12 @@
     diámetro, acomodados en orden creciente de diámetro desde lo más alto hasta lo
     más bajo. Solamente puedes mover un disco a la vez desde un poste hasta otro y
     no está permitido poner un disco más grande sobre otro más pequeño. Tu tarea es
-    mover todos los discos desde el poste A hasta el poste C.
+    mover todos los discos desde el poste A hasta el poste C.  
     i. Escribe una función, hanoi(n), que reciba como parámetro n y que
     imprima en pantalla todos los pasos a seguir para mover los discos
-    del poste A al poste C.
-    ´´´´
+    del poste A al poste C.  
     Nota: Usando la estrategia divide y vencerás, crear una función mueve(n, “A”, “B”,
-    “C”), donde ABC representan las distintas torres.
-    ´´´
+    “C”), donde ABC representan las distintas torres.  
     Una leyenda cuenta que en un monasterio en la ciudad de Hanoi hay 3 postes
     colocados de esa manera y unos monjes han estado trabajando para mover 48
     discos del poste A al poste C, una vez que terminen de mover los 48 discos el
