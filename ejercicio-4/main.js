@@ -1,3 +1,4 @@
+//EJERCICIO #04: Dado un número en base Hexadecimal crea una función, decToHex(n), donde n es el número base 10, convertir este número a hexadecimal, sin usar funciones pre hechas de librerías como Math. 
 let decimal = parseInt(prompt("Ingresa un número decimal", 10));
 
 function decToHex(n) {

@@ -1,3 +1,4 @@
+//EJERCICIO #02: Escribe una función, minMax(data), data es un arreglo de números enteros, debes retornar el otro arreglo de números enteros con el max y min del arreglo original, no puedes usar Math.max y Math.min.
 let k = parseInt(prompt("Ingrese un numero"));
 
 function isOdd(k) {
